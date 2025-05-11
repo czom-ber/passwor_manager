@@ -30,11 +30,3 @@ A simple yet functional password manager built with Python. It allows you to gen
 
 All credentials are stored locally in an encrypted JSON file named passwords.json.
 Passwords are encrypted using a key derived from your master password (via PBKDF2HMAC + Fernet).
-
-Example structure:
-{
-  "example.com": {
-    "username": "user-user",
-    "password": "gAAAAABi..."
-  }
-}
